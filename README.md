@@ -69,6 +69,8 @@ it will produce a solidity file name verifier.sol which we can use it in our sol
 
 
 Method 2: 
+<br />
+<br />
 We can generate and verify proof for a given snark code using 'zokrates-js' library.
 'zokrates-js' comes as an npm package and we can install it as a dependency and use it according to available command of zokrates 
 
