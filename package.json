@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "r1csfile": "^0.0.40",
+    "zokrates-js": "^1.1.1"
+  },
+  "name": "zo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
