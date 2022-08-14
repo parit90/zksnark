@@ -29,11 +29,13 @@ install zokrates using curl
 we can export the environmanet variable to access zokrates cli commands in ~/.zshrc file
 > export PATH=$PATH:$HOME/.zokrates/bin 
 
-Now we can write our snark programs. in this repo, there is a program.zok file which contains the source code to verify. There are list of resources available for writing a snark program for a given QAP.
+Now we can write our snark programs. in this repo, there is a `program.zok` file which contains the source code to verify. 
+There are list of resources available for writing a snark program for a given QAP.
+
 resource: https://github.com/Zokrates/ZoKrates/blob/develop/zokrates_cli/examples/sub.zok
 resource: https://zokrates.github.io/language/variables.html
 
-for a given QAP in the problem statement a^3 * 2b - 5, program.zok file contains the snark program, which needs to get compile using below command. Please note that program.zok file contains the flatten code
+for a given QAP in the problem statement `a^3 * 2b - 5`, `program.zok` file contains the snark program, which needs to get compile using below command. Please note that program.zok file contains the flatten code
 
 > $ zokrates compile -i program.zok
 compile will output three files
