@@ -1,6 +1,6 @@
-#Zksnark using Zokrates
+**Zksnark using Zokrates**
 
-**
+
 ZoKrates is a toolbox for zkSNARKs on Ethereum. It helps you use verifiable computation in your DApp, from the specification of your program in a high level language to generating proofs of computation to verifying those proofs in Solidity.
 
 Ethereum runs computations on all nodes of the network, resulting in high costs, limits in complexity, and low privacy. zkSNARKs have been enabling to only verify computations on-chain for a fraction of the cost of running them, but are hard to grasp and work with.
@@ -9,7 +9,7 @@ ZoKrates bridges this gap. It helps you create off-chain programs and link them 
 
 
 We can also install plugins inside online REMIX ide to run our snark program
-**
+
 
 
 
@@ -17,7 +17,11 @@ About this Demo
 For this demo purposes I am using two methods
 
 
-method 1:
+
+
+****************
+
+Method 1:
 
 install zokrates using curl
 > $ curl -LSfs get.zokrat.es | sh
@@ -65,7 +69,7 @@ Method 2:
 We can generate and verify proof for a given snark code using 'zokrates-js' library.
 'zokrates-js' comes as an npm package and we can install it as a dependency and use it according to available command of zokrates 
 
-> git clone the repository
+> $ git clone the repository
 > run 'npm install' command
 
 we can initialize our source code which is zok code in source variable as string.
