@@ -29,7 +29,7 @@ install zokrates using curl
 we can export the environmanet variable to access zokrates cli commands in ~/.zshrc file
 > export PATH=$PATH:$HOME/.zokrates/bin 
 
-we can see full list of command with $ `zokrates` as command
+we can see full list of command by typing $ `zokrates` as command in terminal
 
 $ `git clone` this repo
 
@@ -84,3 +84,9 @@ We can generate and verify proof for a given snark code using 'zokrates-js' libr
 we can initialize our source code which is zok code in source variable as string.
 Run the index.js file with following cmd
 > $ `node index.js`
+
+
+**************
+
+Security:
+1. We can define argument to the function as private
