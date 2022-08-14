@@ -29,6 +29,8 @@ install zokrates using curl
 we can export the environmanet variable to access zokrates cli commands in ~/.zshrc file
 > export PATH=$PATH:$HOME/.zokrates/bin 
 
+$ `git clone` this repo
+
 Now we can write our snark programs. in this repo, there is a `program.zok` file which contains the source code to verify. 
 There are list of resources available for writing a snark program for a given QAP.
 
